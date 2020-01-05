@@ -3,23 +3,24 @@
 * {
     margin:0;
     padding:0;
-    font-family: 'Special Elite', cursive;
+     
     font-size:xx-large;
     font-stretch:wider;
     font-weight:700;
 }
 
 header {
+    font-family: 'Special Elite', cursive;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/terrarium.jpg);
-    height:100vh;
-    
+    height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
-ul{
+ul {
+    font-family: 'Special Elite', cursive;
     float: right;
-    list-style-type:none;
+    list-style-type: none;
     margin-top: 25px;
 }
 
@@ -65,9 +66,9 @@ ul li a:hover{
     margin: auto;
 }
 .title {
-
+    font-family: 'Special Elite', cursive;
     padding: 20px 20px;
-    padding-top:50px;
+    padding-top: 50px;
     border: 10px solid;
     background-color: #000000;
     color: antiquewhite;
@@ -85,7 +86,7 @@ ul li a:hover{
  }
 
 .description {
-    
+    font-family:'Times New Roman', Times, serif;
     text-align:center;
     padding: 10px 20px;
     border: 5px solid;
@@ -93,7 +94,7 @@ ul li a:hover{
     float: left;
     display: flex;
     margin: auto;
-    top: 70%;
+    top: 68%;
     left: 10%;
     right: 10%;
     color: lightgrey;
