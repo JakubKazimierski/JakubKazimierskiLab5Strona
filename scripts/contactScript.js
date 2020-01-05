@@ -1,7 +1,7 @@
 // JavaScript source code
 var img = document.getElementById('img');
 
-var images = ['../images/phone.png', '../images/mail.png', '../images/social.jpg'];
+var images = ['../images/phone.png', '../images/mail.png', '../images/social.png'];
 
 var x = 0;
 
