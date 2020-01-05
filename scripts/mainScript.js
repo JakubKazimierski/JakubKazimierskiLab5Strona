@@ -13,7 +13,7 @@ function reset() {
 function startSlide() {
     reset();
     sliderImages[0].style.display = 'block';
-    current--;
+    
 }
 
 function slideLeft() {
