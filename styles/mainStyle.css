@@ -73,6 +73,7 @@ ul li a:hover{
  }
 
 .description {
+    text-align:center;
     padding: 10px 20px;
     border: 5px solid;
     position: absolute;
@@ -80,8 +81,8 @@ ul li a:hover{
     display: flex;
     margin: auto;
     top: 70%;
-    left: 20%;
-    right: 20%;
+    left: 10%;
+    right: 10%;
     color: lightgrey;
     background-color:#000000;
 }
