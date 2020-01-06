@@ -33,12 +33,34 @@ body, #slider, .wrap, .slide-content {
  
 .slide1{
     background-image: url(../images/python.jpg);
+    
 }
 .slide2 {
     background-image: url(../images/cobra.jpg);
 }
 .slide3 {
     background-image: url(../images/tarantula.jpg);
+}
+.slide4 {
+    background-image: url(../images/gecon.jpg);
+}
+.slide5 {
+    background-image: url(../images/modliszka.jpg);
+}
+.slide6 {
+    background-image: url(../images/cameleon.jpg);
+}
+.slide7 {
+    background-image: url(../images/koralowy.jpg);
+}
+.slide8 {
+    background-image: url(../images/blueSpider.jpg);
+}
+.slide9 {
+    background-image: url(../images/patyczak.jpg);
+}
+.slide10 {
+    background-image: url(../images/skolopendra.jpg);
 }
 
 .slide-content{
@@ -51,8 +73,12 @@ body, #slider, .wrap, .slide-content {
 
 .slide-content span{
 
-    font-size:5rem;
-    color:antiquewhite;
+    border:5px solid;   
+    background-color:black;
+    font-size:xx-large;
+    color:white;
+    font-weight:900;
+    font-weight:bold;
 }
 
 .arrow{
