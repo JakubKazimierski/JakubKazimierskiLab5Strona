@@ -1,6 +1,7 @@
-﻿
+﻿/*import of google font*/
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Special+Elite&display=swap');
 
+/*general style*/
 body, #slider, .wrap, .slide-content {
     margin: 0;
     padding: 0;
@@ -9,60 +10,73 @@ body, #slider, .wrap, .slide-content {
     height: 100vh;
     overflow-x: hidden;
 }
-
+/* style for hyperlinks div*/
 .links {
     text-align: center;
     font-size:medium;
     font-weight:600;
 }
 
+/*behaviour of hyperlinis style after click*/
 .links a:hover{
     background-color:transparent;
     color:aqua;
 }
 
+/*behaviour of wrap div*/
 .wrap{
     position: relative;
 }
 
+/*style of slide div*/
 .slide{
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }
- 
+
+/*link to slide image*/
 .slide1{
-    background-image: url(../images/python.jpg);
-    
+    background-image: url(../images/python.jpg);    
 }
+/*link to slide image*/
 .slide2 {
     background-image: url(../images/cobra.jpg);
 }
+/*link to slide image*/
 .slide3 {
     background-image: url(../images/tarantula.jpg);
 }
+/*link to slide image*/
 .slide4 {
     background-image: url(../images/gecon.jpg);
 }
+/*link to slide image*/
 .slide5 {
     background-image: url(../images/modliszka.jpg);
 }
+/*link to slide image*/
 .slide6 {
     background-image: url(../images/cameleon.jpg);
 }
+/*link to slide image*/
 .slide7 {
     background-image: url(../images/koralowy.jpg);
 }
+/*link to slide image*/
 .slide8 {
     background-image: url(../images/blueSpider.jpg);
 }
+/*link to slide image*/
 .slide9 {
     background-image: url(../images/patyczak.jpg);
 }
+/*link to slide image*/
 .slide10 {
     background-image: url(../images/skolopendra.jpg);
 }
 
+/*style of slide content*/
 .slide-content{
     display:flex;
     flex-direction:column;
@@ -71,6 +85,7 @@ body, #slider, .wrap, .slide-content {
     text-align:center;
 }
 
+ /* style of span from slide-content*/
 .slide-content span{
 
     border:5px solid;   
@@ -81,6 +96,7 @@ body, #slider, .wrap, .slide-content {
     font-weight:bold;
 }
 
+/*general style of arrows*/
 .arrow{
     cursor:pointer;
     position:absolute;
@@ -90,6 +106,8 @@ body, #slider, .wrap, .slide-content {
     height:0;
     border-style:solid;
 }
+
+/*style of specific arrow*/
 #arrow-left{
 
     border-width: 30px 40px 30px 0px;
@@ -98,6 +116,7 @@ body, #slider, .wrap, .slide-content {
     margin-left: 30px;
 }
 
+/*style of specific arrow*/
 #arrow-right {
     border-width: 30px 0px 30px 40px;
     border-color: transparent transparent transparent antiquewhite;
@@ -105,6 +124,7 @@ body, #slider, .wrap, .slide-content {
     margin-right: 30px;
 }
 
+/*style of links*/
 .links {
     background-size: cover;
     background-position: center;

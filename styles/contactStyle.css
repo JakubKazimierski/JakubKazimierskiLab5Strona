@@ -1,11 +1,13 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+﻿/*import google font*/
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
 
-
+/*general style*/
 * {
     margin: 0;
     padding: 0;
 }
 
+/*style for slider div*/
 .slider {
     width: 20vw;
     height: 20vh;
@@ -13,6 +15,7 @@
      
 }
 
+/*style of image*/
 img{
     
     width: 100%;
@@ -20,6 +23,7 @@ img{
 
 }
 
+/*style of header div*/
 header {
     font-family: 'Special Elite', cursive;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/terrarium.jpg);
@@ -29,6 +33,7 @@ header {
     display:block;
 }
 
+/*style for links */
 .links {
     max-width: 100vw;
     margin: auto;
@@ -40,10 +45,14 @@ header {
     color: antiquewhite;
     padding: 7px 20px;
 }
+
+/*style for links hover*/
 .links a:hover{
     background-color:transparent;
     color:aqua;
 }
+
+/*style for description of contact*/
 .description {
     position: absolute;
     top: 60%;
